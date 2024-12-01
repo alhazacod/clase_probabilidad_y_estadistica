@@ -27,7 +27,7 @@ frecuencia_absoluta.plot.pie(
 )
 plt.title('Diagrama de Pastel de Productividad')
 plt.ylabel('')  # Quitar etiqueta del eje y para claridad
-#plt.show()
+plt.show()
 
 # Calcular el valor más representativo (moda)
 valor_representativo = frecuencia_absoluta.idxmax()

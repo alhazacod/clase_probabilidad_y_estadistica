@@ -39,7 +39,7 @@ plt.hist(salarios, bins=10, color='skyblue', edgecolor='black')
 plt.title('Diagrama de Forma (Histograma)')
 plt.xlabel('Salarios (millones de pesos)')
 plt.ylabel('Frecuencia')
-#plt.show()
+plt.show()
 
 # Crear un diagrama de tallos y hojas
 def stem_and_leaf(data):

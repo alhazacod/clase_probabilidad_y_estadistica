@@ -44,7 +44,7 @@ plt.xlabel('Número de piezas aceptables')
 plt.ylabel('Frecuencia')
 
 plt.tight_layout()
-#plt.show()
+plt.show()
 
 # Calcular medidas de forma
 asimetria = skew(piezas_aceptables)
