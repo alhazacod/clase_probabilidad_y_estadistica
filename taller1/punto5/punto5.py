@@ -3,13 +3,13 @@ import numpy as np
 from scipy.stats import chi2_contingency
 import pandas as pd
 
-# Cargar el archivo para entender el contenido
+# Cargar el archivo 
 file_path = './data.csv'
 data = pd.read_csv(file_path)
 
 #print(data.head())
 
-# Renombrar columnas para facilidad de uso
+# Renombrar columnas 
 data.rename(columns={'Unnamed: 0': 'Causa'}, inplace=True)
 
 # Crear diagramas de pastel condicionales por fila

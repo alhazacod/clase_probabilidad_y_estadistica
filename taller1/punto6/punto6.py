@@ -3,8 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Cargar los datos
-data = pd.read_csv('./data.csv')  # Reemplazar con la ruta del archivo
-# Asumimos que el archivo tiene columnas "Pino suave" y "Piedra dura"
+data = pd.read_csv('./data.csv')  
 
 # Calcular estadísticas para cada zona
 def calculate_statistics(data, column_name):

@@ -4,10 +4,8 @@ import matplotlib.pyplot as plt
 from scipy.stats import skew, kurtosis
 
 data = pd.read_csv('data.csv')
-
 salarios = data['Salarios']
-
-print(salarios)
+#print(salarios)
 
 # Calcular medidas de centro
 media = salarios.mean()

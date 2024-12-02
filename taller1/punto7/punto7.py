@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# Cargar los datos del archivo subido para inspeccionar su contenido
+# Cargar los datos 
 file_path = './data.csv'
 data = pd.read_csv(file_path)
 
@@ -31,3 +31,4 @@ plt.show()
 
 # c) Coeficiente de correlación
 correlacion = np.corrcoef(data['x'], data['y'])[0, 1]
+print(f'Coeficiente de correlacion: {correlacion}')

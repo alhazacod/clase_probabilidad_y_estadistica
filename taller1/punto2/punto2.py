@@ -3,13 +3,11 @@ import numpy as np
 from scipy.stats import skew, kurtosis
 import matplotlib.pyplot as plt
 
-# Cargar los datos del nuevo archivo subido
+# Cargar los datos 
 data = pd.read_csv('data.csv')
 
-# Mostrar las primeras filas para entender la estructura del archivo
 #print(data.head())
 
-# Extraer los datos de la columna relevante
 piezas_aceptables = data['Piezas aceptables']
 
 # Calcular medidas de centro y dispersión

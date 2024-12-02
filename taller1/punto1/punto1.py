@@ -1,11 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Cargar los datos del archivo subido
+# Cargar los datos 
 file_path = './data.csv'
 data = pd.read_csv(file_path)
 
-# Mostrar las primeras filas para entender el contenido del archivo
 #print(data.head())
 
 # Construir la tabla de frecuencias
@@ -26,7 +25,7 @@ frecuencia_absoluta.plot.pie(
     startangle=90
 )
 plt.title('Diagrama de Pastel de Productividad')
-plt.ylabel('')  # Quitar etiqueta del eje y para claridad
+plt.ylabel('')  
 plt.show()
 
 # Calcular el valor más representativo (moda)
