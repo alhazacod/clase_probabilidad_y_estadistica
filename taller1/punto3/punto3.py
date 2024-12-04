@@ -43,7 +43,6 @@ plt.show()
 def stem_and_leaf(data):
     """Crea un diagrama de tallos y hojas para los datos dados."""
     data = (data * 10).astype(int)  
-    print(data)
     data = np.sort(data)
     stems = {}
 
